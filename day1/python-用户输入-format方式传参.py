@@ -8,16 +8,6 @@ age = input("age:")
 job = input("job:")
 salary = input("salary:")
 
-# info = '''
-#
-# ------------- info of  %s ------------
-# Name: %s
-# Age:%s
-# Job:%s
-# salary: %s
-#
-# '''   %(name,name,age,job,salary)
-
 
 info2 = '''
 
@@ -32,3 +22,17 @@ salary: {salary}
             job=job,
             salary=salary)
 print(info2)
+
+
+
+info3 = '''
+
+------------- info of  {0} ------------
+Name: {0}
+Age:{1}
+Job:{2}
+salary: {3}
+
+''' .format(name,age,job,salary)
+
+print(info3)
