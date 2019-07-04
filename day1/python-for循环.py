@@ -6,3 +6,8 @@
 
 for i in range(10):
     print("loop:", i )
+
+
+
+for i in range(0,10,1):
+    print("loop:", i )
