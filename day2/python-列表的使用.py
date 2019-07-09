@@ -3,7 +3,7 @@
 # Author:shichao
 # File: .py
 
-names = [ "shichao", "aa"," bb" ]
+names = [ "shichao", "aa"," bb","cc","cc","dd","ee","ff" ]
 
 
 #切片
@@ -34,4 +34,27 @@ names.remove("shichao")   #删除指定元素
 print(names)
 
 names.pop()    #删除列表最后一个值
+print(names)
+
+#扩展
+b=[1,2,3,3,45,4,6,7,4,8,]
+names.extend(b)
+print(names)
+
+#拷贝
+names_copy = names.copy()
+print(names_copy)
+
+
+#统计
+print(names_copy.count("cc"))
+
+
+#获取下标
+print(names.index("dd"))
+
+
+
+#排序和翻转
+names.sort()
 print(names)
