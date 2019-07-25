@@ -55,6 +55,7 @@ print(names.index("dd"))
 
 
 
-#排序和翻转
-names.sort()
-print(names)
+# #排序和翻转
+# names.sort()
+# print(names)
+
