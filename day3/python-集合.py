@@ -39,3 +39,4 @@ print(10 in list_1)
 
 #查看测试10不是list_1的成员
 print(10 not in list_1)
+
