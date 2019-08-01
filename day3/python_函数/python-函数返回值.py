@@ -16,3 +16,5 @@ t3=test03()
 
 print('from test01 return is [%s]:' %type(t1),t1)
 print('from test01 return is [%s]:' %type(t2),t2)
+print('from test01 return is [%s]:' %type(t3),t3)
+
