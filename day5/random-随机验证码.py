@@ -7,8 +7,8 @@ import random
 
 checkcode=''
 
-for  i  in range(5):
-    current = random.randint(0,5)
+for  i  in range(4):
+    current = random.randint(0,4)
     if current != i:
         temp = chr(random.randint(65,90))
     else:
