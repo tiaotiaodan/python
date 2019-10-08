@@ -27,3 +27,7 @@ print(res)
 res = re.search("abc|ABC","ABCBabcCDef")                           #“|”管道符是从左到依次匹配，“|”管道符还叫“非”或者“或”意思是只要有一边成立，这个对比就成立
 print(res.group())
 
+
+
+res = re.sub("[0-9]+","|","abc12de3f45GH",count=2)    #匹配字符并替换
+print(res)
