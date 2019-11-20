@@ -54,7 +54,7 @@ os.path.getmtime(path)               #返回path所指向的文件或者目录�
 >> > os.getcwd()
 '/tmp'
 >> > os.listdir("dirname")                                 #列出指定目录下的所有的文件和子目录，包括隐藏文件，并以列表方式打印出来
-['a.html']
+['b.html']
 >> > os.listdir()                                          #列出指定目录下的所有的文件和子目录，包括隐藏文件，并以列表方式打印出来
 ['.Test-unix', '.font-unix', '.XIM-unix', '.ICE-unix', '.X11-unix',
  'systemd-private-0922d2b0d23c4a9fbb9427020fbe7bc1-chronyd.service-0kuGwG', 'dirname']
@@ -89,13 +89,13 @@ environ({'XDG_SESSION_ID': '303', 'HOSTNAME': 'python', 'TERM': 'xterm', 'SHELL'
 >>> os.path.abspath("dirname1")                          #返回目录或文件的绝对路径
 '/tmp/ dirname1'
 
->>> os.path.split("/tmp/dirname1/a.html")                #把目录和文件分隔成元组返回
-('/tmp/dirname1', 'a.html')
+>>> os.path.split("/tmp/dirname1/b.html")                #把目录和文件分隔成元组返回
+('/tmp/dirname1', 'b.html')
 
->>> os.path.dirname("/tmp/dirname1/a.html")             #只显示目录
+>>> os.path.dirname("/tmp/dirname1/b.html")             #只显示目录
 '/tmp/dirname1'
->>> os.path.basename("/tmp/dirname1/a.html")            #只显示文件
-'a.html'
+>>> os.path.basename("/tmp/dirname1/b.html")            #只显示文件
+'b.html'
 >>> os.path.exists("/tmp ")                             #判断是否目录或文件存在，存在就返回True为真。不存在就为假就返回False
 True
 >>> os.path.exists("/tmp/aa" )                          #判断是否目录或文件存在，存在就返回True为真。不存在就为假就返回False
@@ -104,7 +104,7 @@ False
 True
 >>> os.path.isabs("dirname1" )                          #判断是否是绝对路径，是绝对路径就返回True为真。不是绝对路径就为假就返回False
 False
->>> os.path.isfile("/tmp/dirname1/a.html ")            #判断文件是否存在，存在就返回True为真。不存在就为假就返回False
+>>> os.path.isfile("/tmp/dirname1/b.html ")            #判断文件是否存在，存在就返回True为真。不存在就为假就返回False
 True
 >>> os.path.isfile("/tmp/dirname1/b.html" )            #判断文件是否存在，存在就返回True为真。不存在就为假就返回Fals
 False
@@ -112,8 +112,8 @@ False
 True
 >>> os.path.isdir("/tmp/dirname2" )                    #判断目录是否存在，存在就返回True为真。不存在就为假就返回Fals
 False
->>> os.path.jo in('/tmp','/ dirname1','a.html')        #将多个路径组合后返回，第一个绝对路径之前的参数将被忽略
-'/dirname1/ a.html'
+>>> os.path.jo in('/tmp','/ dirname1','b.html')        #将多个路径组合后返回，第一个绝对路径之前的参数将被忽略
+'/dirname1/ b.html'
 >>> os.path.getatime("dirname1")                       #返回path所指向的文件或者目录的最后存取时间
 1566960224. 9806259
 >>> os.path.getmtime("dirname1")                       ##返回path所指向的文件或者目录的最后修改时间

@@ -9,7 +9,7 @@ trabsport = paramiko.Transport(('192.168.200.130', 22))
 trabsport.connect(username='root',password='123456')
 
 sftp = paramiko.SFTPClient.from_transport(trabsport)
-sftp.put('a.html','/tmp/a.html')
+sftp.put('b.html','/tmp/b.html')
 
 
 trabsport.close()
