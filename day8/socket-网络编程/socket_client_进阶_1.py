@@ -7,7 +7,7 @@ import  socket
 
 client = socket.socket()
 
-client.connect(("127.0.0.1",9996))
+client.connect(("127.0.0.1",8001))
 
 while True:
     msg = input(">>:").strip()
