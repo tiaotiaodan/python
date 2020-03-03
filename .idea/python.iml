@@ -2,11 +2,18 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
+<<<<<<< HEAD:.idea/python.iml
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Python 3.8 (python)" jdkType="Python SDK" />
+>>>>>>> 88d8545f0402429a520d421d5d6d0abf8e5c2061:.idea/施超github.iml
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+<<<<<<< HEAD:.idea/python.iml
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
     <option name="myDocStringFormat" value="Plain" />
   </component>
+=======
+>>>>>>> 88d8545f0402429a520d421d5d6d0abf8e5c2061:.idea/施超github.iml
 </module>
